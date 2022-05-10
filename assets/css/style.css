@@ -38,7 +38,7 @@
 }
 
 .header {
-    background-color: var(--primary-color);
+    background-color: #fff;
     position: relative;
 }
 
@@ -58,8 +58,8 @@
 }
 
 .header .header-navigation > ul > li > a {
-    color: var(--white);
-    font-size: 1em;
+    color: var(--primary-color);
+    font-size: 1.05em;
     font-weight: 700;
     display: inline-block;
     padding: 22px 0;
@@ -76,7 +76,7 @@
     bottom: 18px;
     left: 0;
     width: 100%;
-    background-color: var(--white);
+    background-color: var(--primary-color);
     height: 1px;
     position: absolute;
     content: "";
@@ -112,6 +112,7 @@
     -webkit-box-shadow: 0px 4px 8px rgb(97 97 97 / 10%), 0px 8px 16px rgb(97 97 97 / 10%);
     -moz-box-shadow: 0px 4px 8px rgba(97, 97, 97, 0.1), 0px 8px 16px rgba(97, 97, 97, 0.1);
     box-shadow: 0px 4px 8px rgb(97 97 97 / 10%), 0px 8px 16px rgb(97 97 97 / 10%);
+    z-index: 10;
 }
 
 .header .header-navigation > ul > li:hover > ul {
@@ -128,7 +129,7 @@
 .header .header-navigation > ul > li > ul > li > a {
     display: block;
     padding: 12px 15px;
-    color: var(--dark-color);
+    color: var(--primary-color);
     font-size: 1em;
     font-weight: 700;
     position: relative;
@@ -175,7 +176,7 @@
 }
 
 .header .header-action .header-action_login {
-    color: var(--white);
+    color: var(--primary-color);
     font-size: 1em;
     font-weight: 700;
     display: inline-block;
@@ -188,7 +189,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: var(--white);
+    background-color: var(--primary-color);
     height: 1px;
     position: absolute;
     content: "";
@@ -207,8 +208,8 @@
     font-size: 1em;
     font-weight: 700;
     display: inline-block;
-    color: #fff;
-    border: 1px solid #fff;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 2px;
     padding: 9px 22px;
     text-align: center;
@@ -216,8 +217,8 @@
 }
 
 .header .header-action .header-action_register:hover {
-    color: var(--primary-color);
-    background-color: #fff;
+    background-color: var(--primary-color);
+    color: #fff;
 }
 
 .header .header-action > a + a {
@@ -416,7 +417,6 @@
     color: var(--primary-color) !important;
 }
 
-
 .button-theme.button-outline:hover {
     background-color: var(--white);
     border-color: var(--white);
@@ -484,4 +484,72 @@
 
 .section-merchants .section-heading .button > a:hover {
     color: rgb(210, 210, 210);
+}
+
+.section-banner {
+    background-color: var(--primary-color);
+}
+
+.section-banner .banner-item {
+    padding: 140px 0;
+}
+
+.section-banner .banner-item .section-heading .title,
+.section-banner .banner-item .section-heading .desc {
+    color: var(--white);
+}
+
+.section-banner .banner-item .section-heading .title {
+    font-size: 3em;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+
+.section-banner .banner-item .section-heading .desc {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+.section-banner .banner-item .section-heading .sub {
+    margin-bottom: 30px;
+}
+
+.section-banner .banner-item .section-heading .sub span {
+    display: inline;
+    font-size: .8em;
+    background-color: var(--dark-color);
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.section-banner .banner-item .section-heading .sub > a {
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    font-size: .9em;
+    color: #fff;
+}
+
+.section-banner .banner-item .section-heading .sub > a i {
+    margin-left: 7px;
+    transition: .3s margin-left ease;
+    font-size: 1.6em;
+}
+
+.section-banner .banner-item .section-heading .sub > a:hover i {
+    margin-left: 12px;
+}
+
+.section-banner .banner-item .section-heading .button-theme.button-primary {
+    background-color: var(--white);
+    color: var(--primary-color) !important;
+    border-color: var(--white);
+}
+
+.section-banner .banner-item .section-heading .button-theme.button-primary:hover {
+    background-color: rgb(210, 210, 210);
+    color: var(--primary-color) !important;
 }
