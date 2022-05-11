@@ -67,7 +67,32 @@
 		});
 	}
 
+	const sliderCases = () => {
+		new Swiper('#slider-cases .swiper', {
+			speed: 1000,
+			slidesPerView: 3,
+			spaceBetween: 20,
+			preloadImages: false,
+			effect: 'slide',
+			breakpoints: {
+				320: {
+					slidesPerView: 1.4,
+				},
+				768: {
+					slidesPerView: 2.4,
+				},
+			},
+			pagination: {
+				el: "#slider-cases .swiper-pagination",
+				clickable: true,
+			},
+		})
+	}
+
 	$(function () {
 		sliderBanner();
+		if (windowWidth < 992) {
+			sliderCases();
+		}
 	});
 })(jQuery);
