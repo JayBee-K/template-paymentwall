@@ -39,7 +39,18 @@
 <header class="header" id="header">
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-lg-3">
+			<div class="col-3 d-block d-lg-none order-first">
+				<div class="header-hamburger d-flex align-items-center justify-content-start d-lg-none">
+					<button class="hamburger-icon" data-toggle="collapse" data-target="#header-navigation"
+							id="hamburger-toggle" type="button">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+			</div>
+			<div class="col-6 col-lg-3 order-first">
 				<div class="header-brand">
 					<div class="header-logo">
 						<a href="index.html">
@@ -48,8 +59,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-6">
-				<div class="header-navigation">
+			<div class="col-lg-6 order-last order-lg-2">
+				<div id="header-navigation" class="collapse d-lg-flex header-navigation">
 					<ul>
 						<li>
 							<a href="">
@@ -91,7 +102,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-lg-3">
+			<div class="col-3 col-lg-3 order-first order-lg-3">
 				<div class="header-action">
 					<a href="" class="header-action_login">
 						Đăng nhập
