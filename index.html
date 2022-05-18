@@ -1,1174 +1,1037 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-    <title>Payment - Trang chủ</title>
-    <meta name="description" content="Checkscam - Trang chủ">
-    <meta name="author" content="">
+	<title>Payment - Trang chủ</title>
+	<meta name="description" content="Checkscam - Trang chủ">
+	<meta name="author" content="">
 
-    <meta property="og:title" content="Checkscam - Trang chủ">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="">
-    <meta property="og:description" content="Checkscam - Trang chủ">
-    <meta property="og:image" content="">
+	<meta property="og:title" content="Checkscam - Trang chủ">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:description" content="Checkscam - Trang chủ">
+	<meta property="og:image" content="">
 
-    <link rel="icon" href="/assets/images/favicon.png">
-    <link rel="apple-touch-icon" href="/assets/images/favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-          rel="stylesheet">
+	<link rel="icon" href="/assets/images/favicon.png">
+	<link rel="apple-touch-icon" href="/assets/images/favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+		  rel="stylesheet">
 
-    <style>
+	<style>
         :root {
             --primary-color: #013088;
             --primary-hover: #012467;
         }
-    </style>
-    <link rel="stylesheet" href="./assets/plugins/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/plugins/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+	</style>
+	<link rel="stylesheet" href="./assets/plugins/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/plugins/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="./assets/css/base.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 <header class="header" id="header">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-3 d-block d-lg-none order-first">
-                <div class="header-hamburger d-flex align-items-center justify-content-start d-lg-none">
-                    <button class="hamburger-icon" data-toggle="collapse" data-target="#header-navigation"
-                            id="hamburger-toggle" type="button">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                </div>
-            </div>
-            <div class="col-6 col-lg-3 order-first">
-                <div class="header-brand">
-                    <div class="header-logo">
-                        <a href="index.html">
-                            <img src="./assets/images/logo.png" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 order-last order-lg-2">
-                <div id="header-navigation" class="collapse d-lg-flex header-navigation">
-                    <ul>
-                        <li>
-                            <a href="">
-                                Trang chủ
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Giới thiệu
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Hỗ trợ
-                            </a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)">
-                                Tin tức
-                                <i class="fal fa-angle-down"></i>
-                            </a>
-                            <ul>
-                                <li>
-                                    <a href="danh-muc-tin-tuc.html">Danh mục tin tức</a>
-                                </li>
-                                <li>
-                                    <a href="danh-muc-tin-tuc.html">Danh mục tin tức</a>
-                                </li>
-                                <li>
-                                    <a href="danh-muc-tin-tuc.html">Danh mục tin tức</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="">
-                                Liên hệ
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-3 col-lg-3 order-first order-lg-3">
-                <div class="header-action">
-                    <a href="" class="header-action_login">
-                        Đăng nhập
-                    </a>
-                    <a href="" class="header-action_register">
-                        Tạo tài khoản
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-3 d-block d-lg-none order-first">
+				<div class="header-hamburger d-flex align-items-center justify-content-start d-lg-none">
+					<button class="hamburger-icon" data-toggle="collapse" data-target="#header-navigation"
+							id="hamburger-toggle" type="button">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+			</div>
+			<div class="col-6 col-lg-3 order-first">
+				<div class="header-brand">
+					<div class="header-logo">
+						<a href="index.html">
+							<img src="./assets/images/logo.png" alt="" class="img-fluid">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 order-last order-lg-2">
+				<div id="header-navigation" class="collapse d-lg-flex header-navigation">
+					<ul>
+						<li>
+							<a href="">
+								Trang chủ
+							</a>
+						</li>
+						<li>
+							<a href="">
+								Giới thiệu
+							</a>
+						</li>
+						<li>
+							<a href="">
+								Hỗ trợ
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">
+								Tin tức
+								<i class="fal fa-angle-down"></i>
+							</a>
+							<ul>
+								<li>
+									<a href="danh-muc-tin-tuc.html">Danh mục tin tức</a>
+								</li>
+								<li>
+									<a href="danh-muc-tin-tuc.html">Danh mục tin tức</a>
+								</li>
+								<li>
+									<a href="danh-muc-tin-tuc.html">Danh mục tin tức</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="">
+								Liên hệ
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-3 col-lg-3 order-first order-lg-3">
+				<div class="header-action">
+					<a href="" class="header-action_login">
+						<span class="d-lg-block d-none">
+							Đăng nhập
+						</span>
+						<span class="d-lg-none d-block">
+							<i class="fas fa-user-alt"></i>
+						</span>
+					</a>
+					<a href="" class="header-action_register">
+						Tạo tài khoản
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
 </header>
 
 <div class="main">
-    <div class="section-banner" id="slider-banner">
-        <div class="swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="banner-item">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 mt-5 mt-lg-0 col-12 order-last order-lg-first">
-                                    <div class="section-heading mb-0">
-                                        <div class="sub">
-                                            <span>PRODUCT UPDATE</span>
-                                            <a href="">Paymentwall expands its payments Thailand <i
-                                                    class="fal fa-angle-right"></i></a>
-                                        </div>
-                                        <div class="title">
-                                            Global Expansion
-                                            <br>
-                                            Made Easy
-                                        </div>
-                                        <div class="desc mb-3">
-                                            All-in-one payments platform for ambitious merchants taking over worldwide
-                                            markets.
-                                        </div>
-                                        <div class="button mt-4 d-flex align-items-center">
-                                            <a href="" class="button-theme button-primary">
-                                                Create an Account
-                                            </a>
-                                            <a href="" class="button-theme button-outline">
-                                                Request a Consultation
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-12 order-first order-lg-last">
-                                    <img src="./assets/images/banner/PW20_bridge_usa_monster.svg"
-                                         class="img-fluid w-100" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="banner-item">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 mt-5 mt-lg-0 col-12 order-last order-lg-first">
-                                    <div class="section-heading mb-0">
-                                        <div class="sub">
-                                            <span>PRODUCT UPDATE</span>
-                                            <a href="">Paymentwall expands its payments Thailand <i
-                                                    class="fal fa-angle-right"></i></a>
-                                        </div>
-                                        <div class="title">
-                                            Global Expansion
-                                            <br>
-                                            Made Easy
-                                        </div>
-                                        <div class="desc mb-3">
-                                            All-in-one payments platform for ambitious merchants taking over worldwide
-                                            markets.
-                                        </div>
-                                        <div class="button mt-4 d-flex align-items-center">
-                                            <a href="" class="button-theme button-primary">
-                                                Create an Account
-                                            </a>
-                                            <a href="" class="button-theme button-outline">
-                                                Request a Consultation
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-12 order-first order-lg-last">
-                                    <img src="./assets/images/banner/PW20_bridge_usa_monster.svg"
-                                         class="img-fluid w-100" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="banner-item">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 mt-5 mt-lg-0 col-12 order-last order-lg-first">
-                                    <div class="section-heading mb-0">
-                                        <div class="sub">
-                                            <span>PRODUCT UPDATE</span>
-                                            <a href="">Paymentwall expands its payments Thailand <i
-                                                    class="fal fa-angle-right"></i></a>
-                                        </div>
-                                        <div class="title">
-                                            Global Expansion
-                                            <br>
-                                            Made Easy
-                                        </div>
-                                        <div class="desc mb-3">
-                                            All-in-one payments platform for ambitious merchants taking over worldwide
-                                            markets.
-                                        </div>
-                                        <div class="button mt-4 d-flex align-items-center">
-                                            <a href="" class="button-theme button-primary">
-                                                Create an Account
-                                            </a>
-                                            <a href="" class="button-theme button-outline">
-                                                Request a Consultation
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-12 order-first order-lg-last">
-                                    <img src="./assets/images/banner/PW20_bridge_usa_monster.svg"
-                                         class="img-fluid w-100" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="swiper-pagination"></div>
-    </div>
-    <div class="section-links section-gap">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="list-unstyled mb-0">
-                        <li>
-                            <a href="">
-                                <div class="link-image d-block d-md-none">
-                                    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 24'>
-                                        <g fill='none' fill-rule='evenodd'>
-                                            <g fill='var(--primary-color)' fill-rule='nonzero'>
-                                                <path d='M32.1.023H3.731A3.738 3.738 0 000 3.756v16.423a3.738 3.738 0 003.732 3.732H32.1a3.738 3.738 0 003.733-3.732V3.756A3.738 3.738 0 0032.099.023zm2.239 20.156a2.242 2.242 0 01-2.24 2.24H3.732a2.242 2.242 0 01-2.239-2.24V3.756a2.242 2.242 0 012.24-2.24h28.366a2.242 2.242 0 012.24 2.24v16.423z'/>
-                                                <path d='M35.085 4.502H.747A.747.747 0 000 5.25v4.479c0 .412.334.746.747.746h34.338a.747.747 0 00.747-.746v-4.48a.747.747 0 00-.747-.746zm-.746 4.48H1.493V5.994h32.846v2.986zM14.183 14.953H5.225a.747.747 0 000 1.493h8.958a.747.747 0 000-1.493zM14.183 17.94H5.225a.747.747 0 000 1.492h8.958a.747.747 0 000-1.493zM29.113 13.46H27.62a2.242 2.242 0 00-2.24 2.24v1.493a2.242 2.242 0 002.24 2.24h1.493a2.242 2.242 0 002.24-2.24V15.7a2.242 2.242 0 00-2.24-2.24zm.747 3.733a.747.747 0 01-.747.746H27.62a.747.747 0 01-.746-.746V15.7c0-.412.334-.747.746-.747h1.493c.412 0 .747.335.747.747v1.493z'/>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="link-content">
-                                    Accept
-                                    <span class="d-none d-md-inline">Credit Card Payments</span>
-                                    <span class="d-inline d-md-none">Cards</span>
-                                    <i class="fal fa-angle-right"></i>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <div class="link-image d-block d-md-none">
-
-                                    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 34 27'>
-                                        <g fill='none' fill-rule='evenodd'>
-                                            <g fill='var(--primary-color)' fill-rule='nonzero'>
-                                                <path d='M28.34.022H4.837A4.844 4.844 0 000 4.86v16.589a4.844 4.844 0 004.838 4.838H28.34a4.844 4.844 0 004.839-4.838V4.86A4.844 4.844 0 0028.339.022zm3.455 21.427a3.46 3.46 0 01-3.456 3.456H4.84a3.46 3.46 0 01-3.457-3.456V4.86a3.46 3.46 0 013.456-3.456H28.34a3.46 3.46 0 013.456 3.456v16.589z'/>
-                                                <path d='M26.957 11.08c-1.143 0-2.074.931-2.074 2.074 0 1.144.93 2.074 2.074 2.074 1.143 0 2.073-.93 2.073-2.074 0-1.143-.93-2.073-2.073-2.073zm0 2.766a.692.692 0 010-1.383.692.692 0 010 1.383z'/>
-                                                <path d='M32.486 8.316h-5.53a4.844 4.844 0 00-4.838 4.838 4.844 4.844 0 004.839 4.839h5.53c.38 0 .69-.31.69-.691V9.007a.691.691 0 00-.69-.691zm-.69 8.294h-4.84a3.46 3.46 0 01-3.455-3.456 3.46 3.46 0 013.456-3.456h4.838v6.912z'/>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="link-content">
-                                    <span class="d-none d-md-inline">Integrate Local Payment Methods</span>
-                                    <span class="d-inline d-md-none">Local Methods</span>
-                                    <i class="fal fa-angle-right"></i>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <div class="link-image d-block d-md-none">
-
-                                    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'>
-                                        <g fill='none' fill-rule='evenodd'>
-                                            <g fill='var(--primary-color)' fill-rule='nonzero'>
-                                                <path d='M34.592 10.28L18.64.127a.734.734 0 00-.76-.015L.362 10.332a.73.73 0 00.368 1.362H34.335a.73.73 0 00.257-1.415zM3.43 10.233l14.8-8.635 13.57 8.635H3.43zM34.306 29.212H.73a.73.73 0 00-.73.73v4.379c0 .403.327.73.73.73h33.576a.73.73 0 00.73-.73v-4.38a.73.73 0 00-.73-.73zm-.73 4.379H1.46v-2.92h32.116v2.92zM9.489 13.154h-4.38a.73.73 0 00-.73.73v13.138c0 .403.327.73.73.73h4.38a.73.73 0 00.73-.73V13.883a.73.73 0 00-.73-.73zm-.73 13.138h-2.92V14.613h2.92v11.679z'/>
-                                                <path d='M5.11 13.154H3.65a.73.73 0 000 1.46h1.46a.73.73 0 100-1.46zM5.11 26.292H3.65a.73.73 0 000 1.46h1.46a.73.73 0 100-1.46zM10.949 26.292h-1.46a.73.73 0 000 1.46h1.46a.73.73 0 100-1.46zM10.949 13.154h-1.46a.73.73 0 000 1.46h1.46a.73.73 0 100-1.46zM19.707 13.154h-4.379a.73.73 0 00-.73.73v13.138c0 .403.327.73.73.73h4.38a.73.73 0 00.73-.73V13.883a.73.73 0 00-.73-.73zm-.73 13.138h-2.92V14.613h2.92v11.679z'/>
-                                                <path d='M15.328 13.154h-1.46a.73.73 0 000 1.46h1.46a.73.73 0 100-1.46zM15.328 26.292h-1.46a.73.73 0 000 1.46h1.46a.73.73 0 100-1.46zM21.167 26.292h-1.46a.73.73 0 000 1.46h1.46a.73.73 0 100-1.46zM21.167 13.154h-1.46a.73.73 0 000 1.46h1.46a.73.73 0 100-1.46zM29.926 13.154h-4.38a.73.73 0 00-.73.73v13.138c0 .403.328.73.73.73h4.38a.73.73 0 00.73-.73V13.883a.73.73 0 00-.73-.73zm-.73 13.138h-2.92V14.613h2.92v11.679z'/>
-                                                <path d='M25.547 13.154h-1.46a.73.73 0 000 1.46h1.46a.73.73 0 100-1.46zM25.547 26.292h-1.46a.73.73 0 000 1.46h1.46a.73.73 0 100-1.46zM31.386 26.292h-1.46a.73.73 0 000 1.46h1.46a.73.73 0 100-1.46zM31.386 13.154h-1.46a.73.73 0 000 1.46h1.46a.73.73 0 100-1.46z'/>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="link-content">
-                                    Prevent Fraud
-                                    <i class="fal fa-angle-right"></i>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <div class="link-image d-block d-md-none">
-                                    <svg width='35px' height='35px' viewBox='0 0 35 35' version='1.1'
-                                         xmlns='http://www.w3.org/2000/svg'>
-                                        <g id='Landings' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'>
-                                            <g id='Index_mobile_navigation_1'
-                                               transform='translate(-213.000000, -765.000000)'>
-                                                <g id='ic_support' transform='translate(213.000000, 765.000000)'
-                                                   fill='var(--primary-color)' fill-rule='nonzero'>
-                                                    <path d='M17.496,0 C7.8732,0 0,7.8732 0,17.496 C0,27.1188 7.8732,34.992 17.496,34.992 C27.1188,34.992 34.992,27.1188 34.992,17.496 C34.992,7.8732 27.1188,0 17.496,0 Z M26.3169,22.0158 C26.973,20.7036 27.4104,19.1727 27.4104,17.496 C27.4104,15.8922 27.0459,14.3613 26.3169,13.0491 L31.6386,9.8415 C32.805,12.1014 33.534,14.7258 33.534,17.496 C33.534,20.3391 32.805,22.9635 31.4928,25.2963 L26.3169,22.0158 Z M9.1125,17.496 C9.1125,12.8304 12.9033,9.1125 17.496,9.1125 C22.0887,9.1125 25.8795,12.8304 25.8795,17.496 C25.8795,22.1616 22.1616,25.8795 17.496,25.8795 C12.8304,25.8795 9.1125,22.1616 9.1125,17.496 Z M25.1505,3.4263 L21.9429,8.748 C20.6307,8.0919 19.0998,7.6545 17.496,7.6545 C15.8922,7.6545 14.3613,8.019 13.0491,8.748 L9.8415,3.4263 C12.1014,2.187 14.7258,1.458 17.496,1.458 C20.2662,1.458 22.8906,2.187 25.1505,3.4263 Z M3.4263,9.8415 L8.748,13.0491 C8.0919,14.3613 7.6545,15.8922 7.6545,17.496 C7.6545,19.0998 8.019,20.6307 8.748,22.0158 L3.4992,25.2963 C2.187,22.9635 1.458,20.3391 1.458,17.496 C1.458,14.7258 2.187,12.1014 3.4263,9.8415 Z M9.8415,31.5657 L13.0491,26.244 C14.3613,26.9001 15.8922,27.3375 17.496,27.3375 C19.0998,27.3375 20.6307,26.973 21.9429,26.244 L25.1505,31.5657 C22.8906,32.805 20.2662,33.534 17.496,33.534 C14.7258,33.534 12.1014,32.805 9.8415,31.5657 Z'
-                                                          id='Shape'></path>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="link-content">
-                                    <span class="d-none d-md-inline">Streamline </span>
-                                    Business Operations
-                                    <i class="fal fa-angle-right"></i>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section-merchants section-gap">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="section-heading mb-0">
-                        <div class="title">
-                            We Grow Together
-                        </div>
-                        <div class="desc mb-3">
-                            Powering leading industries with a complete set of payment solutions and services to help
-                            you run your business from day one.
-                        </div>
-                        <div class="button d-flex flex-column">
-                            <a href="">Terminal3 Game Payments by Paymentwall <i class="fal fa-angle-right"></i></a>
-                            <a href="">Paymentwall for E-Commerce <i class="fal fa-angle-right"></i></a>
-                            <a href="">Paymentwall for Travel <i class="fal fa-angle-right"></i></a>
-                            <a href="">Paymentwall for SaaS <i class="fal fa-angle-right"></i></a>
-                            <a href="">Paymentwall for Enterprises <i class="fal fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-4 mt-md-0">
-                    <div class="row row-col-5">
-                        <div class="col-6 col-md-4">
-                            <img src="./assets/images/merchant/PW20_merchant_1.svg" class="img-fluid w-100" alt="">
-                        </div>
-                        <div class="col-6 col-md-4">
-                            <img src="./assets/images/merchant/PW20_merchant_2.png" class="img-fluid w-100" alt="">
-                        </div>
-                        <div class="col-6 col-md-4">
-                            <img src="./assets/images/merchant/PW20_merchant_3.svg" class="img-fluid w-100" alt="">
-                        </div>
-                        <div class="col-6 col-md-4">
-                            <img src="./assets/images/merchant/PW20_merchant_4.png" class="img-fluid w-100" alt="">
-                        </div>
-                        <div class="col-6 col-md-4">
-                            <img src="./assets/images/merchant/PW20_merchant_5.svg" class="img-fluid w-100" alt="">
-                        </div>
-                        <div class="col-6 col-md-4">
-                            <img src="./assets/images/merchant/PW20_merchant_6.svg" class="img-fluid w-100" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section-method section-gap" style="background-image: url(./assets/images/method-bg.png)">
-        <div class="container">
-            <div class="row align-items-center flex-column-reverse flex-md-row">
-                <div class="col-md-6 mb-4 mb-md-0">
-                    <div class="logo-image">
-                        <img src="./assets/images/method-logo.png" width="500px" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="section-heading mb-md-0">
-                        <div class="sub">
-                            INTEGRATE WITH EASE
-                        </div>
-                        <div class="title">
-                            Reach 4 Billion Customers
-                        </div>
-                        <div class="desc">
-                            Paymentwall is the first payment provider to partner with all major payment methods in 200
-                            local regions, including China, Brazil, Russia, and Korea to offer more than 150 local
-                            payment methods, including e-wallets, bank transfers, prepaid cards, and cash options.
-                        </div>
-                        <div class="button">
-                            <a href="">
-                                See all Payment Methods
-                                <i class="fal fa-angle-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section-integration section-gap">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-heading">
-                        <div class="sub">
-                            INTEGRATE WITH EASE
-                        </div>
-                        <div class="title">
-                            Build the payment experience that works for you.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 pr-md-4">
-                    <div class="integration-card card border-0 rounded-0 bg-white p-0">
-                        <div class="card-header border-bottom-0 rounded-0 p-0 bg-white">
-                            <img src="./assets/images/PW20_integration_api.png" class="card-img-top img-fluid" alt="">
-                        </div>
-                        <div class="card-body p-0">
-                            <div class="card-title">
-                                One Single API
-                            </div>
-                            <div class="card-text">
-                                With one single API integration, you get instant access to all our services and over 150
-                                local payment methods.
-                            </div>
-                            <div class="card-link">
-                                <a href="">
-                                    Read our Documentation
-                                    <i class="fal fa-angle-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-4 mt-md-0 pl-md-4">
-                    <div class="integration-card card border-0 rounded-0 bg-white p-0">
-                        <div class="card-header border-bottom-0 rounded-0 p-0 bg-white">
-                            <img src="./assets/images/PW20_integration_plugins.png" class="card-img-top img-fluid"
-                                 alt="">
-                        </div>
-                        <div class="card-body p-0">
-                            <div class="card-title">
-                                One Single API
-                            </div>
-                            <div class="card-text">
-                                Minimize development time with the help of our ready-to-use plugins for Shopify,
-                                WooCommerce, Magento, and more.
-                            </div>
-                            <div class="card-link">
-                                <a href="">
-                                    Browse Plugins
-                                    <i class="fal fa-angle-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section-cases section-gap">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-heading mb-0">
-                        <div class="sub">
-                            USE EASE
-                        </div>
-                        <div class="title">
-                            Tailor your own payment solution based on <br>
-                            your business needs.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 d-lg-block d-none">
-                    <div class="row row-cols-lg-2">
-                        <div class="col pr-lg-4">
-                            <div class="cases-item d-flex align-items-start">
-                                <div class="cases-item_image">
-                                    <img src="./assets/images/cases/PW20_case-cc.png" alt="">
-                                </div>
-                                <div class="cases-item_content">
-                                    <div class="cases-item_title">
-                                        Improve Credit Card Acceptance
-                                    </div>
-                                    <div class="cases-item_text">
-                                        Enable customers to pay with credit and debit cards and improve acceptance.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col pl-lg-4">
-                            <div class="cases-item d-flex align-items-start">
-                                <div class="cases-item_image">
-                                    <img src="./assets/images/cases/PW20_case-local.png" alt="">
-                                </div>
-                                <div class="cases-item_content">
-                                    <div class="cases-item_title">
-                                        Connect to Local Acquiring
-                                    </div>
-                                    <div class="cases-item_text">
-                                        Improve credit card acceptance rate in selected markets.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col pr-lg-4">
-                            <div class="cases-item d-flex align-items-start">
-                                <div class="cases-item_image">
-                                    <img src="./assets/images/cases/PW20_case-cc.png" alt="">
-                                </div>
-                                <div class="cases-item_content">
-                                    <div class="cases-item_title">
-                                        Improve Credit Card Acceptance
-                                    </div>
-                                    <div class="cases-item_text">
-                                        Enable customers to pay with credit and debit cards and improve acceptance.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col pl-lg-4">
-                            <div class="cases-item d-flex align-items-start">
-                                <div class="cases-item_image">
-                                    <img src="./assets/images/cases/PW20_case-local.png" alt="">
-                                </div>
-                                <div class="cases-item_content">
-                                    <div class="cases-item_title">
-                                        Connect to Local Acquiring
-                                    </div>
-                                    <div class="cases-item_text">
-                                        Improve credit card acceptance rate in selected markets.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col pr-lg-4">
-                            <div class="cases-item d-flex align-items-start">
-                                <div class="cases-item_image">
-                                    <img src="./assets/images/cases/PW20_case-cc.png" alt="">
-                                </div>
-                                <div class="cases-item_content">
-                                    <div class="cases-item_title">
-                                        Improve Credit Card Acceptance
-                                    </div>
-                                    <div class="cases-item_text">
-                                        Enable customers to pay with credit and debit cards and improve acceptance.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col pl-lg-4">
-                            <div class="cases-item d-flex align-items-start">
-                                <div class="cases-item_image">
-                                    <img src="./assets/images/cases/PW20_case-local.png" alt="">
-                                </div>
-                                <div class="cases-item_content">
-                                    <div class="cases-item_title">
-                                        Connect to Local Acquiring
-                                    </div>
-                                    <div class="cases-item_text">
-                                        Improve credit card acceptance rate in selected markets.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col pr-lg-4">
-                            <div class="cases-item d-flex align-items-start">
-                                <div class="cases-item_image">
-                                    <img src="./assets/images/cases/PW20_case-cc.png" alt="">
-                                </div>
-                                <div class="cases-item_content">
-                                    <div class="cases-item_title">
-                                        Improve Credit Card Acceptance
-                                    </div>
-                                    <div class="cases-item_text">
-                                        Enable customers to pay with credit and debit cards and improve acceptance.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col pl-lg-4">
-                            <div class="cases-item d-flex align-items-start">
-                                <div class="cases-item_image">
-                                    <img src="./assets/images/cases/PW20_case-local.png" alt="">
-                                </div>
-                                <div class="cases-item_content">
-                                    <div class="cases-item_title">
-                                        Connect to Local Acquiring
-                                    </div>
-                                    <div class="cases-item_text">
-                                        Improve credit card acceptance rate in selected markets.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 d-block d-lg-none">
-                    <div class="slide-cases position-relative" id="slider-cases">
-                        <div class="swiper p-2">
-                            <div class="swiper-wrapper h-auto">
-                                <div class="swiper-slide h-auto">
-                                    <div class="cases-item d-flex align-items-start">
-                                        <div class="cases-item_image">
-                                            <img src="./assets/images/cases/PW20_case-cc.png" alt="">
-                                        </div>
-                                        <div class="cases-item_content">
-                                            <div class="cases-item_title">
-                                                Improve Credit Card Acceptance
-                                            </div>
-                                            <div class="cases-item_text">
-                                                Enable customers to pay with credit and debit cards and improve
-                                                acceptance.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide h-auto">
-                                    <div class="cases-item d-flex align-items-start">
-                                        <div class="cases-item_image">
-                                            <img src="./assets/images/cases/PW20_case-local.png" alt="">
-                                        </div>
-                                        <div class="cases-item_content">
-                                            <div class="cases-item_title">
-                                                Connect to Local Acquiring
-                                            </div>
-                                            <div class="cases-item_text">
-                                                Improve credit card acceptance rate in selected markets.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide h-auto">
-                                    <div class="cases-item d-flex align-items-start">
-                                        <div class="cases-item_image">
-                                            <img src="./assets/images/cases/PW20_case-cc.png" alt="">
-                                        </div>
-                                        <div class="cases-item_content">
-                                            <div class="cases-item_title">
-                                                Improve Credit Card Acceptance
-                                            </div>
-                                            <div class="cases-item_text">
-                                                Enable customers to pay with credit and debit cards and improve
-                                                acceptance.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide h-auto">
-                                    <div class="cases-item d-flex align-items-start">
-                                        <div class="cases-item_image">
-                                            <img src="./assets/images/cases/PW20_case-local.png" alt="">
-                                        </div>
-                                        <div class="cases-item_content">
-                                            <div class="cases-item_title">
-                                                Connect to Local Acquiring
-                                            </div>
-                                            <div class="cases-item_text">
-                                                Improve credit card acceptance rate in selected markets.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide h-auto">
-                                    <div class="cases-item d-flex align-items-start">
-                                        <div class="cases-item_image">
-                                            <img src="./assets/images/cases/PW20_case-cc.png" alt="">
-                                        </div>
-                                        <div class="cases-item_content">
-                                            <div class="cases-item_title">
-                                                Improve Credit Card Acceptance
-                                            </div>
-                                            <div class="cases-item_text">
-                                                Enable customers to pay with credit and debit cards and improve
-                                                acceptance.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide h-auto">
-                                    <div class="cases-item d-flex align-items-start">
-                                        <div class="cases-item_image">
-                                            <img src="./assets/images/cases/PW20_case-local.png" alt="">
-                                        </div>
-                                        <div class="cases-item_content">
-                                            <div class="cases-item_title">
-                                                Connect to Local Acquiring
-                                            </div>
-                                            <div class="cases-item_text">
-                                                Improve credit card acceptance rate in selected markets.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section-article section-gap">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-heading">
-                        <div class="sub">
-                            INDURSTY INSIGHTS
-                        </div>
-                        <div class="title">
-                            Keep up with the latest news and updates from our <br>
-                            payment experts..
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="row row-cols-md-3 row-cols-1 row-col-15">
-                        <div class="col">
-                            <div class="article-card h-100 card border-0 rounded-0 bg-white p-0">
-                                <div class="card-header overflow-hidden border-bottom-0 rounded-0 p-0 bg-white">
-                                    <a href="">
-                                        <img src="./assets/images/article/PW20_insight_1.png"
-                                             class="card-img-top img-fluid transition-default" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body p-0">
-                                    <div class="card-sub">
-                                        THE RISE OF EMERGING MARKETS
-                                    </div>
-                                    <div class="card-title">
-                                        <a href="">
-                                            Alternative Payments in Latin America – Going Local Pays Off
-                                        </a>
-                                    </div>
-                                    <div class="card-text">
-                                        An overview of the most popular payment methods in Latin America and their
-                                        potential for your business.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="article-card h-100 card border-0 rounded-0 bg-white p-0">
-                                <div class="card-header overflow-hidden border-bottom-0 rounded-0 p-0 bg-white">
-                                    <a href="">
-                                        <img src="./assets/images/article/PW20_insight_1.png"
-                                             class="card-img-top img-fluid transition-default" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body p-0">
-                                    <div class="card-sub">
-                                        THE RISE OF EMERGING MARKETS
-                                    </div>
-                                    <div class="card-title">
-                                        <a href="">
-                                            Alternative Payments in Latin America – Going Local Pays Off
-                                        </a>
-                                    </div>
-                                    <div class="card-text">
-                                        An overview of the most popular payment methods in Latin America and their
-                                        potential for your business.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="article-card h-100 card border-0 rounded-0 bg-white p-0">
-                                <div class="card-header overflow-hidden border-bottom-0 rounded-0 p-0 bg-white">
-                                    <a href="">
-                                        <img src="./assets/images/article/PW20_insight_1.png"
-                                             class="card-img-top img-fluid transition-default" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body p-0">
-                                    <div class="card-sub">
-                                        THE RISE OF EMERGING MARKETS
-                                    </div>
-                                    <div class="card-title">
-                                        <a href="">
-                                            Alternative Payments in Latin America – Going Local Pays Off
-                                        </a>
-                                    </div>
-                                    <div class="card-text">
-                                        An overview of the most popular payment methods in Latin America and their
-                                        potential for your business.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section-cta section-gap">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-10 col-lg-8">
-                    <div class="section-heading mb-0">
-                        <div class="title">
-                            Scale your business globally with Paymentwall
-                        </div>
-                        <div class="button mt-4 d-flex align-items-center justify-content-center">
-                            <a href="" class="button-theme button-primary">
-                                Create an Account
-                            </a>
-                            <a href="" class="button-theme button-outline">
-                                Request a Consultation
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="section-banner" id="slider-banner">
+		<div class="swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="banner-item">
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-lg-6 mt-5 mt-lg-0 col-12 order-last order-lg-first">
+									<div class="section-heading mb-0">
+										<div class="sub">
+											<span>PRODUCT UPDATE</span>
+											<a href="">Paymentwall expands its payments Thailand <i
+													class="fal fa-angle-right"></i></a>
+										</div>
+										<div class="title">
+											Global Expansion
+											<br>
+											Made Easy
+										</div>
+										<div class="desc mb-3">
+											All-in-one payments platform for ambitious merchants taking over worldwide
+											markets.
+										</div>
+										<div class="button mt-4 d-flex align-items-center">
+											<a href="" class="button-theme button-primary">
+												Create an Account
+											</a>
+											<a href="" class="button-theme button-outline">
+												Request a Consultation
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-12 order-first order-lg-last">
+									<img src="./assets/images/banner/PW20_bridge_usa_monster.svg"
+										 class="img-fluid w-100" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="banner-item">
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-lg-6 mt-5 mt-lg-0 col-12 order-last order-lg-first">
+									<div class="section-heading mb-0">
+										<div class="sub">
+											<span>PRODUCT UPDATE</span>
+											<a href="">Paymentwall expands its payments Thailand <i
+													class="fal fa-angle-right"></i></a>
+										</div>
+										<div class="title">
+											Global Expansion
+											<br>
+											Made Easy
+										</div>
+										<div class="desc mb-3">
+											All-in-one payments platform for ambitious merchants taking over worldwide
+											markets.
+										</div>
+										<div class="button mt-4 d-flex align-items-center">
+											<a href="" class="button-theme button-primary">
+												Create an Account
+											</a>
+											<a href="" class="button-theme button-outline">
+												Request a Consultation
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-12 order-first order-lg-last">
+									<img src="./assets/images/banner/PW20_bridge_usa_monster.svg"
+										 class="img-fluid w-100" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="banner-item">
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-lg-6 mt-5 mt-lg-0 col-12 order-last order-lg-first">
+									<div class="section-heading mb-0">
+										<div class="sub">
+											<span>PRODUCT UPDATE</span>
+											<a href="">Paymentwall expands its payments Thailand <i
+													class="fal fa-angle-right"></i></a>
+										</div>
+										<div class="title">
+											Global Expansion
+											<br>
+											Made Easy
+										</div>
+										<div class="desc mb-3">
+											All-in-one payments platform for ambitious merchants taking over worldwide
+											markets.
+										</div>
+										<div class="button mt-4 d-flex align-items-center">
+											<a href="" class="button-theme button-primary">
+												Create an Account
+											</a>
+											<a href="" class="button-theme button-outline">
+												Request a Consultation
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-12 order-first order-lg-last">
+									<img src="./assets/images/banner/PW20_bridge_usa_monster.svg"
+										 class="img-fluid w-100" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+	<div class="section-method section-gap" style="background-image: url(./assets/images/method-bg.png)">
+		<div class="container">
+			<div class="row align-items-center flex-column-reverse flex-md-row">
+				<div class="col-md-6 mb-4 mb-md-0">
+					<div class="logo-image">
+						<img src="./assets/images/method-logo.png" width="500px" class="img-fluid" alt="">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="section-heading mb-md-0">
+						<div class="sub">
+							INTEGRATE WITH EASE
+						</div>
+						<div class="title">
+							Reach 4 Billion Customers
+						</div>
+						<div class="desc">
+							Paymentwall is the first payment provider to partner with all major payment methods in 200
+							local regions, including China, Brazil, Russia, and Korea to offer more than 150 local
+							payment methods, including e-wallets, bank transfers, prepaid cards, and cash options.
+						</div>
+						<div class="button">
+							<a href="">
+								See all Payment Methods
+								<i class="fal fa-angle-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section-integration section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section-heading">
+						<div class="sub">
+							INTEGRATE WITH EASE
+						</div>
+						<div class="title">
+							Build the payment experience that works for you.
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 pr-md-4">
+					<div class="integration-card card border-0 rounded-0 bg-white p-0">
+						<div class="card-header border-bottom-0 rounded-0 p-0 bg-white">
+							<img src="./assets/images/PW20_integration_api.png" class="card-img-top img-fluid" alt="">
+						</div>
+						<div class="card-body p-0">
+							<div class="card-title">
+								One Single API
+							</div>
+							<div class="card-text">
+								With one single API integration, you get instant access to all our services and over 150
+								local payment methods.
+							</div>
+							<div class="card-link">
+								<a href="">
+									Read our Documentation
+									<i class="fal fa-angle-right"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 mt-4 mt-md-0 pl-md-4">
+					<div class="integration-card card border-0 rounded-0 bg-white p-0">
+						<div class="card-header border-bottom-0 rounded-0 p-0 bg-white">
+							<img src="./assets/images/PW20_integration_plugins.png" class="card-img-top img-fluid"
+								 alt="">
+						</div>
+						<div class="card-body p-0">
+							<div class="card-title">
+								One Single API
+							</div>
+							<div class="card-text">
+								Minimize development time with the help of our ready-to-use plugins for Shopify,
+								WooCommerce, Magento, and more.
+							</div>
+							<div class="card-link">
+								<a href="">
+									Browse Plugins
+									<i class="fal fa-angle-right"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section-cases section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section-heading mb-0">
+						<div class="sub">
+							USE EASE
+						</div>
+						<div class="title">
+							Tailor your own payment solution based on <br>
+							your business needs.
+						</div>
+					</div>
+				</div>
+				<div class="col-12 d-lg-block d-none">
+					<div class="row row-cols-lg-2">
+						<div class="col pr-lg-4">
+							<div class="cases-item d-flex align-items-start">
+								<div class="cases-item_image">
+									<img src="./assets/images/cases/PW20_case-cc.png" alt="">
+								</div>
+								<div class="cases-item_content">
+									<div class="cases-item_title">
+										Improve Credit Card Acceptance
+									</div>
+									<div class="cases-item_text">
+										Enable customers to pay with credit and debit cards and improve acceptance.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col pl-lg-4">
+							<div class="cases-item d-flex align-items-start">
+								<div class="cases-item_image">
+									<img src="./assets/images/cases/PW20_case-local.png" alt="">
+								</div>
+								<div class="cases-item_content">
+									<div class="cases-item_title">
+										Connect to Local Acquiring
+									</div>
+									<div class="cases-item_text">
+										Improve credit card acceptance rate in selected markets.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col pr-lg-4">
+							<div class="cases-item d-flex align-items-start">
+								<div class="cases-item_image">
+									<img src="./assets/images/cases/PW20_case-cc.png" alt="">
+								</div>
+								<div class="cases-item_content">
+									<div class="cases-item_title">
+										Improve Credit Card Acceptance
+									</div>
+									<div class="cases-item_text">
+										Enable customers to pay with credit and debit cards and improve acceptance.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col pl-lg-4">
+							<div class="cases-item d-flex align-items-start">
+								<div class="cases-item_image">
+									<img src="./assets/images/cases/PW20_case-local.png" alt="">
+								</div>
+								<div class="cases-item_content">
+									<div class="cases-item_title">
+										Connect to Local Acquiring
+									</div>
+									<div class="cases-item_text">
+										Improve credit card acceptance rate in selected markets.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col pr-lg-4">
+							<div class="cases-item d-flex align-items-start">
+								<div class="cases-item_image">
+									<img src="./assets/images/cases/PW20_case-cc.png" alt="">
+								</div>
+								<div class="cases-item_content">
+									<div class="cases-item_title">
+										Improve Credit Card Acceptance
+									</div>
+									<div class="cases-item_text">
+										Enable customers to pay with credit and debit cards and improve acceptance.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col pl-lg-4">
+							<div class="cases-item d-flex align-items-start">
+								<div class="cases-item_image">
+									<img src="./assets/images/cases/PW20_case-local.png" alt="">
+								</div>
+								<div class="cases-item_content">
+									<div class="cases-item_title">
+										Connect to Local Acquiring
+									</div>
+									<div class="cases-item_text">
+										Improve credit card acceptance rate in selected markets.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col pr-lg-4">
+							<div class="cases-item d-flex align-items-start">
+								<div class="cases-item_image">
+									<img src="./assets/images/cases/PW20_case-cc.png" alt="">
+								</div>
+								<div class="cases-item_content">
+									<div class="cases-item_title">
+										Improve Credit Card Acceptance
+									</div>
+									<div class="cases-item_text">
+										Enable customers to pay with credit and debit cards and improve acceptance.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col pl-lg-4">
+							<div class="cases-item d-flex align-items-start">
+								<div class="cases-item_image">
+									<img src="./assets/images/cases/PW20_case-local.png" alt="">
+								</div>
+								<div class="cases-item_content">
+									<div class="cases-item_title">
+										Connect to Local Acquiring
+									</div>
+									<div class="cases-item_text">
+										Improve credit card acceptance rate in selected markets.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 d-block d-lg-none">
+					<div class="slide-cases position-relative" id="slider-cases">
+						<div class="swiper p-2">
+							<div class="swiper-wrapper h-auto">
+								<div class="swiper-slide h-auto">
+									<div class="cases-item d-flex align-items-start">
+										<div class="cases-item_image">
+											<img src="./assets/images/cases/PW20_case-cc.png" alt="">
+										</div>
+										<div class="cases-item_content">
+											<div class="cases-item_title">
+												Improve Credit Card Acceptance
+											</div>
+											<div class="cases-item_text">
+												Enable customers to pay with credit and debit cards and improve
+												acceptance.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide h-auto">
+									<div class="cases-item d-flex align-items-start">
+										<div class="cases-item_image">
+											<img src="./assets/images/cases/PW20_case-local.png" alt="">
+										</div>
+										<div class="cases-item_content">
+											<div class="cases-item_title">
+												Connect to Local Acquiring
+											</div>
+											<div class="cases-item_text">
+												Improve credit card acceptance rate in selected markets.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide h-auto">
+									<div class="cases-item d-flex align-items-start">
+										<div class="cases-item_image">
+											<img src="./assets/images/cases/PW20_case-cc.png" alt="">
+										</div>
+										<div class="cases-item_content">
+											<div class="cases-item_title">
+												Improve Credit Card Acceptance
+											</div>
+											<div class="cases-item_text">
+												Enable customers to pay with credit and debit cards and improve
+												acceptance.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide h-auto">
+									<div class="cases-item d-flex align-items-start">
+										<div class="cases-item_image">
+											<img src="./assets/images/cases/PW20_case-local.png" alt="">
+										</div>
+										<div class="cases-item_content">
+											<div class="cases-item_title">
+												Connect to Local Acquiring
+											</div>
+											<div class="cases-item_text">
+												Improve credit card acceptance rate in selected markets.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide h-auto">
+									<div class="cases-item d-flex align-items-start">
+										<div class="cases-item_image">
+											<img src="./assets/images/cases/PW20_case-cc.png" alt="">
+										</div>
+										<div class="cases-item_content">
+											<div class="cases-item_title">
+												Improve Credit Card Acceptance
+											</div>
+											<div class="cases-item_text">
+												Enable customers to pay with credit and debit cards and improve
+												acceptance.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide h-auto">
+									<div class="cases-item d-flex align-items-start">
+										<div class="cases-item_image">
+											<img src="./assets/images/cases/PW20_case-local.png" alt="">
+										</div>
+										<div class="cases-item_content">
+											<div class="cases-item_title">
+												Connect to Local Acquiring
+											</div>
+											<div class="cases-item_text">
+												Improve credit card acceptance rate in selected markets.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section-article section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section-heading">
+						<div class="sub">
+							INDURSTY INSIGHTS
+						</div>
+						<div class="title">
+							Keep up with the latest news and updates from our <br>
+							payment experts..
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="row row-cols-md-3 row-cols-1 row-col-15">
+						<div class="col">
+							<div class="article-card h-100 card border-0 rounded-0 bg-white p-0">
+								<div class="card-header overflow-hidden border-bottom-0 rounded-0 p-0 bg-white">
+									<a href="">
+										<img src="./assets/images/article/PW20_insight_1.png"
+											 class="card-img-top img-fluid transition-default" alt="">
+									</a>
+								</div>
+								<div class="card-body p-0">
+									<div class="card-sub">
+										THE RISE OF EMERGING MARKETS
+									</div>
+									<div class="card-title">
+										<a href="">
+											Alternative Payments in Latin America – Going Local Pays Off
+										</a>
+									</div>
+									<div class="card-text">
+										An overview of the most popular payment methods in Latin America and their
+										potential for your business.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="article-card h-100 card border-0 rounded-0 bg-white p-0">
+								<div class="card-header overflow-hidden border-bottom-0 rounded-0 p-0 bg-white">
+									<a href="">
+										<img src="./assets/images/article/PW20_insight_1.png"
+											 class="card-img-top img-fluid transition-default" alt="">
+									</a>
+								</div>
+								<div class="card-body p-0">
+									<div class="card-sub">
+										THE RISE OF EMERGING MARKETS
+									</div>
+									<div class="card-title">
+										<a href="">
+											Alternative Payments in Latin America – Going Local Pays Off
+										</a>
+									</div>
+									<div class="card-text">
+										An overview of the most popular payment methods in Latin America and their
+										potential for your business.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="article-card h-100 card border-0 rounded-0 bg-white p-0">
+								<div class="card-header overflow-hidden border-bottom-0 rounded-0 p-0 bg-white">
+									<a href="">
+										<img src="./assets/images/article/PW20_insight_1.png"
+											 class="card-img-top img-fluid transition-default" alt="">
+									</a>
+								</div>
+								<div class="card-body p-0">
+									<div class="card-sub">
+										THE RISE OF EMERGING MARKETS
+									</div>
+									<div class="card-title">
+										<a href="">
+											Alternative Payments in Latin America – Going Local Pays Off
+										</a>
+									</div>
+									<div class="card-text">
+										An overview of the most popular payment methods in Latin America and their
+										potential for your business.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section-cta section-gap">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-10 col-lg-8">
+					<div class="section-heading mb-0">
+						<div class="title">
+							Scale your business globally with Paymentwall
+						</div>
+						<div class="button mt-4 d-flex align-items-center justify-content-center">
+							<a href="" class="button-theme button-primary">
+								Create an Account
+							</a>
+							<a href="" class="button-theme button-outline">
+								Request a Consultation
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 <footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="footer-lists">
-                    <div class="footer-list_item">
-                        <div data-toggle="collapse" data-target="#footer-1" class="footer-list_collapse">
-                            Products
-                        </div>
-                        <div class="collapse" id="footer-1">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="">Brick – Global Credit Card Processing</a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        PayAlto – Worldwide Local Payment Methods
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">Brick – Global Credit Card Processing</a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        PayAlto – Worldwide Local Payment Methods
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">Brick – Global Credit Card Processing</a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        PayAlto – Worldwide Local Payment Methods
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer-list_item">
-                        <div data-toggle="collapse" data-target="#footer-2" class="footer-list_collapse">
-                            KNOWLEDGE HUB
-                        </div>
-                        <div class="collapse" id="footer-2">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="">Payment Methods</a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        Developer Docs
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">Direct APIs</a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        Extensions
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">Support</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer-list_item">
-                        <div data-toggle="collapse" data-target="#footer-3" class="footer-list_collapse">
-                            COMPANY
-                        </div>
-                        <div class="collapse" id="footer-3">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="">
-                                        About Us
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        Blog
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        Careers
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        Contact Us
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer-list_item footer-list_social">
-                        <div class="footer-list_collapse border-bottom-0">
-                            FOLLOW US
-                        </div>
-                        <div>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer-list_item footer-list_language">
-                        <div class="footer-list_collapse border-bottom-0">
-                            LANGUAGE
-                        </div>
-                        <div>
-                            <div class="dropdown dropdown-wrap">
-                                <button class="btn btn-dropdown dropdown-toggle p-0" type="button" id="dropdownLanguage"
-                                        data-toggle="dropdown" aria-expanded="false">
-                                    <i class="fas fa-globe"></i>
-                                    <span class="px-2">Tiếng Việt</span>
-                                </button>
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownLanguage"
-                                     style="">
-                                    <a class="dropdown-item " href="#">English</a>
-                                    <a class="dropdown-item active " href="#">Tiếng
-                                        Việt
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="footer-list_item footer-list_vertical">
-                        <div class="footer-list_vertical__item">
-                            <div data-toggle="collapse" data-target="#footer-6" class="footer-list_collapse">
-                                EUROPE
-                            </div>
-                            <div class="collapse" id="footer-6">
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a href="">
-                                            London
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Berlin
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Lisbon
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Berlin
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Lisbon
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Berlin
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Lisbon
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Moscow
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Sofia
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Kyiv
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="footer-list_vertical__item">
-                            <div data-toggle="collapse" data-target="#footer-7" class="footer-list_collapse">
-                                ASIA
-                            </div>
-                            <div class="collapse" id="footer-7">
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a href="">
-                                            London
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Berlin
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Lisbon
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Moscow
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Sofia
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Kyiv
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="footer-list_vertical__item">
-                            <div data-toggle="collapse" data-target="#footer-8" class="footer-list_collapse">
-                                NORTH AMERICA
-                            </div>
-                            <div class="collapse" id="footer-8">
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a href="">
-                                            London
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Berlin
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Lisbon
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="footer-list_vertical__item">
-                            <div data-toggle="collapse" data-target="#footer-9" class="footer-list_collapse">
-                                AFRICA
-                            </div>
-                            <div class="collapse" id="footer-9">
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a href="">
-                                            London
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Kyiv
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container mt-5 mt-lg-0 px-3">
-        <div class="row">
-            <div class="col-12">
-                <hr>
-            </div>
-            <div class="col-12 col-sm-6 offset-sm-3">
-                <div class="row align-content-center">
-                    <div class="col-4">
-                        <div class="h-100 d-flex text-center align-items-center justify-content-center">
-                            <img src="https://www.paymentwall.com/uploaded/files/accredited-business.svg"
-                                 class="img-fluid"
-                                 alt="BBB accredited business">
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="h-100 d-flex text-center align-items-center justify-content-center">
-                            <img src="https://www.paymentwall.com/uploaded/files/trustwave.svg" class="img-fluid"
-                                 alt="Trustwave">
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="h-100 d-flex text-center align-items-center justify-content-center">
-                            <img src="https://www.paymentwall.com/uploaded/files/pci.svg" class="img-fluid"
-                                 alt="PCI DSS compliant">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 offset-sm-3">
-                <div class="footer-menu">
-                    <a href="">Privacy Policy</a>
-                    <a href="">Terms of Service</a>
-                    <a href="">DMCA Policy</a>
-                    <a href="">Cookies Policy</a>
-                </div>
-                <div class="footer-copyright">
-                    © 2022 Paymentwall, Inc. All rights reserved.
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="footer-lists">
+					<div class="footer-list_item">
+						<div data-toggle="collapse" data-target="#footer-1" class="footer-list_collapse">
+							Products
+						</div>
+						<div class="collapse" id="footer-1">
+							<ul class="list-unstyled">
+								<li>
+									<a href="">Brick – Global Credit Card Processing</a>
+								</li>
+								<li>
+									<a href="">
+										PayAlto – Worldwide Local Payment Methods
+									</a>
+								</li>
+								<li>
+									<a href="">Brick – Global Credit Card Processing</a>
+								</li>
+								<li>
+									<a href="">
+										PayAlto – Worldwide Local Payment Methods
+									</a>
+								</li>
+								<li>
+									<a href="">Brick – Global Credit Card Processing</a>
+								</li>
+								<li>
+									<a href="">
+										PayAlto – Worldwide Local Payment Methods
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-list_item">
+						<div data-toggle="collapse" data-target="#footer-2" class="footer-list_collapse">
+							KNOWLEDGE HUB
+						</div>
+						<div class="collapse" id="footer-2">
+							<ul class="list-unstyled">
+								<li>
+									<a href="">Payment Methods</a>
+								</li>
+								<li>
+									<a href="">
+										Developer Docs
+									</a>
+								</li>
+								<li>
+									<a href="">Direct APIs</a>
+								</li>
+								<li>
+									<a href="">
+										Extensions
+									</a>
+								</li>
+								<li>
+									<a href="">Support</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-list_item">
+						<div data-toggle="collapse" data-target="#footer-3" class="footer-list_collapse">
+							COMPANY
+						</div>
+						<div class="collapse" id="footer-3">
+							<ul class="list-unstyled">
+								<li>
+									<a href="">
+										About Us
+									</a>
+								</li>
+								<li>
+									<a href="">
+										Blog
+									</a>
+								</li>
+								<li>
+									<a href="">
+										Careers
+									</a>
+								</li>
+								<li>
+									<a href="">
+										Contact Us
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-list_item footer-list_social">
+						<div class="footer-list_collapse border-bottom-0">
+							FOLLOW US
+						</div>
+						<div>
+							<ul class="list-unstyled">
+								<li>
+									<a href="">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fab fa-instagram"></i>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fab fa-twitter"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-list_item footer-list_language">
+						<div class="footer-list_collapse border-bottom-0">
+							LANGUAGE
+						</div>
+						<div>
+							<div class="dropdown dropdown-wrap">
+								<button class="btn btn-dropdown dropdown-toggle p-0" type="button" id="dropdownLanguage"
+										data-toggle="dropdown" aria-expanded="false">
+									<i class="fas fa-globe"></i>
+									<span class="px-2">Tiếng Việt</span>
+								</button>
+								<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownLanguage"
+									 style="">
+									<a class="dropdown-item " href="#">English</a>
+									<a class="dropdown-item active " href="#">Tiếng
+										Việt
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="footer-list_item footer-list_vertical">
+						<div class="footer-list_vertical__item">
+							<div data-toggle="collapse" data-target="#footer-6" class="footer-list_collapse">
+								EUROPE
+							</div>
+							<div class="collapse" id="footer-6">
+								<ul class="list-unstyled">
+									<li>
+										<a href="">
+											London
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Berlin
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Lisbon
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Berlin
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Lisbon
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Berlin
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Lisbon
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Moscow
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Sofia
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Kyiv
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer-list_vertical__item">
+							<div data-toggle="collapse" data-target="#footer-7" class="footer-list_collapse">
+								ASIA
+							</div>
+							<div class="collapse" id="footer-7">
+								<ul class="list-unstyled">
+									<li>
+										<a href="">
+											London
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Berlin
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Lisbon
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Moscow
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Sofia
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Kyiv
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer-list_vertical__item">
+							<div data-toggle="collapse" data-target="#footer-8" class="footer-list_collapse">
+								NORTH AMERICA
+							</div>
+							<div class="collapse" id="footer-8">
+								<ul class="list-unstyled">
+									<li>
+										<a href="">
+											London
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Berlin
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Lisbon
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer-list_vertical__item">
+							<div data-toggle="collapse" data-target="#footer-9" class="footer-list_collapse">
+								AFRICA
+							</div>
+							<div class="collapse" id="footer-9">
+								<ul class="list-unstyled">
+									<li>
+										<a href="">
+											London
+										</a>
+									</li>
+									<li>
+										<a href="">
+											Kyiv
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container mt-5 mt-lg-0 px-3">
+		<div class="row">
+			<div class="col-12">
+				<hr>
+			</div>
+			<div class="col-12 col-sm-6 offset-sm-3">
+				<div class="row align-content-center">
+					<div class="col-4">
+						<div class="h-100 d-flex text-center align-items-center justify-content-center">
+							<img src="https://www.paymentwall.com/uploaded/files/accredited-business.svg"
+								 class="img-fluid"
+								 alt="BBB accredited business">
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="h-100 d-flex text-center align-items-center justify-content-center">
+							<img src="https://www.paymentwall.com/uploaded/files/trustwave.svg" class="img-fluid"
+								 alt="Trustwave">
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="h-100 d-flex text-center align-items-center justify-content-center">
+							<img src="https://www.paymentwall.com/uploaded/files/pci.svg" class="img-fluid"
+								 alt="PCI DSS compliant">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 offset-sm-3">
+				<div class="footer-menu">
+					<a href="">Privacy Policy</a>
+					<a href="">Terms of Service</a>
+					<a href="">DMCA Policy</a>
+					<a href="">Cookies Policy</a>
+				</div>
+				<div class="footer-copyright">
+					© 2022 Paymentwall, Inc. All rights reserved.
+				</div>
+			</div>
+		</div>
+	</div>
 </footer>
 
 
 <script type=" text/javascript" src="./assets/plugins/jquery.min.js"></script>
 <script type="text/javascript"
-        src="./assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+		src="./assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
 <script type="text/javascript"
-        src="./assets/plugins/swiper/swiper-bundle.min.js"></script>
+		src="./assets/plugins/swiper/swiper-bundle.min.js"></script>
 <script type="text/javascript" src="./assets/js/app.js"></script>
 </body>
 </html>
